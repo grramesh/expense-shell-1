@@ -37,7 +37,7 @@ else
  # shell scripting cannot use vim --> that is for humans 
  # hence created backend.serive and copying from it and pasting here
  #check your repo and path
- cp /home/ec2-user/expense-shell/backend.service /etc/systemd/system/backend.service  &>>$LOGFILE
+ cp /home/ec2-user/expense-shell-1/backend.service /etc/systemd/system/backend.service  &>>$LOGFILE
  #VALIDATE $? "copied backend service"
 
  systemctl daemon-reload &>>$LOGFILE
