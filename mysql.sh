@@ -29,3 +29,4 @@ if [ $? -ne 0 ]
  else 
     echo -e "Mysql root password is already set up...$Y SKIPPING $N"   
  fi
+ echo "mysql"
