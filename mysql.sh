@@ -7,7 +7,7 @@ check_root  # to call check_root from other script, it has to be in function
 echo "please enter db password:"
 read -s mysql_root_password
 
-dnf install mysql-server1233 -y &>>$LOGFILE
+dnf install mysql-server -y &>>$LOGFILE
 #VALIDATE $? "Installing mysql server"
 
 systemctl enable mysqld  &>>$LOGFILE
